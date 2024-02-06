@@ -1,7 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-
-
 def get_countries_betexplorer():
     try:
         url = "https://www.betexplorer.com/"
